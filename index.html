@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- اختار نوع خط وخد الكود بتاعه هنا  -->
+  <!-- wow css -->
+  <link rel="stylesheet" href="files/css/wow.css">
+  <!-- animate css -->
+  <link rel="stylesheet" href="files/css/animate.min.css">
+  <!-- fontawesome css -->
+  <link rel="stylesheet" href="files/css/all.min.css">
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="files/css/bootstrap.min.css">
+  <!-- mdbootstrap css -->
+  <link rel="stylesheet" href="files/css/mdb.min.css">
+  <!-- style css -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h3 id="myText">Hello World!</h3>
+<div>
+    <button class="btn btn-danger" id="red" data-color="red">Red</button>
+    <button class="btn btn-primary" id="blue" data-color="blue">Blue</button>
+    <button class="btn btn-success" id="green" data-color="green">Green</button>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-10 m-auto">
+            <form id="formData" onsubmit="return taskdata()">
+                <h2 class="text-center"></h2>
+                <input type="text" name="list" placeholder="Enter Your Task" id="list" class="p-3 my-3 form-control">
+                <input type="submit" value="Enter To Your List" class="form-control btn btn-success my-3">
+                <h3 id="error" class="alert alert-danger d-none"></h3>
+            </form>
+            <ol id="result">
+
+            </ol>
+        </div>
+    </div>
+</div>
+
+
+  <!-- wow js -->
+  <script src="files/js/wow.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+  <!-- wow js -->
+  <!-- fontawesome js   -->
+  <script src="files/js/all.min.js"></script>
+  <!-- bootstrap js -->
+  <script src="files/js/jquery.slim.min.js"></script>
+  <script src="files/js/popper.min.js"></script>
+  <script src="files/js/bootstrap.min.js"></script>
+  <!-- mdbootstrap js -->
+  <script src="files/js/mdb.umd.min.js"></script>
+  <!-- main js -->
+  <script src="js/main.js"></script>
+</body>
+</html>
